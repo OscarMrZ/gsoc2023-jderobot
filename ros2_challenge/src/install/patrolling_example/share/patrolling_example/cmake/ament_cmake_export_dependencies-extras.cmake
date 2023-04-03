@@ -1,0 +1,1 @@
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

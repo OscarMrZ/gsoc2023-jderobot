@@ -1,0 +1,47 @@
+[0.026s] Invoking command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example -- -j8 -l8
+[0.098s] [ 16%] Built target recharge_bt_node
+[0.105s] [ 50%] Built target location_bt_node
+[0.105s] [ 50%] Built target get_waypoint_bt_node
+[0.105s] [ 83%] Built target move_bt_node
+[0.105s] [ 83%] Built target patrolling_example
+[0.106s] [100%] Built target battery_checker_bt_node
+[0.122s] Invoked command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example -- -j8 -l8
+[0.178s] Invoking command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example
+[0.189s] -- Install configuration: "Debug"
+[0.190s] -- Execute custom install script
+[0.190s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/librecharge_bt_node.so
+[0.190s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/liblocation_bt_node.so
+[0.191s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libmove_bt_node.so
+[0.191s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libget_waypoint_bt_node.so
+[0.191s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libbattery_checker_bt_node.so
+[0.192s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/patrolling_example/patrolling_example
+[0.192s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/BatteryChecker.hpp
+[0.193s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/GetWaypoint.hpp
+[0.193s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Location.hpp
+[0.193s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Move.hpp
+[0.193s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Recharge.hpp
+[0.194s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/ctrl_support/BTActionNode.hpp
+[0.194s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/ctrl_support/BTLifecycleCtrlNode.hpp
+[0.194s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/launch/example_bringup.py
+[0.195s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/param/waffle.yaml
+[0.195s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/map/map.pgm
+[0.196s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/map/map.yaml
+[0.196s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/behavior_tree_xml/example.xml
+[0.197s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/package_run_dependencies/patrolling_example
+[0.197s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/parent_prefix_path/patrolling_example
+[0.198s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/ament_prefix_path.sh
+[0.198s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/ament_prefix_path.dsv
+[0.198s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/path.sh
+[0.199s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/path.dsv
+[0.199s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.bash
+[0.199s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.sh
+[0.200s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.zsh
+[0.200s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.dsv
+[0.202s] -- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/package.dsv
+[0.212s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/packages/patrolling_example
+[0.213s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/patrolling_exampleConfig.cmake
+[0.214s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/patrolling_exampleConfig-version.cmake
+[0.215s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/package.xml
+[0.231s] Invoked command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example

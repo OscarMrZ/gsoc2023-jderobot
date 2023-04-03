@@ -1,0 +1,11 @@
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/uninstall.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/pubsub_challenge_uninstall.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/talker.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/listener.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/test.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/edit_cache.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/rebuild_cache.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/list_install_components.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/install.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/install/local.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge/CMakeFiles/install/strip.dir

@@ -1,0 +1,15 @@
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/uninstall.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/patrolling_example_uninstall.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/recharge_bt_node.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/location_bt_node.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/move_bt_node.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/get_waypoint_bt_node.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/battery_checker_bt_node.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/patrolling_example.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/test.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/edit_cache.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/rebuild_cache.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/list_install_components.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/install.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/install/local.dir
+/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example/CMakeFiles/install/strip.dir

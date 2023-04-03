@@ -1,0 +1,334 @@
+[0.000000] (-) TimerEvent: {}
+[0.002007] (patrolling_example) JobQueued: {'identifier': 'patrolling_example', 'dependencies': OrderedDict()}
+[0.002210] (pubsub_challenge) JobQueued: {'identifier': 'pubsub_challenge', 'dependencies': OrderedDict()}
+[0.002265] (patrolling_example) JobStarted: {'identifier': 'patrolling_example'}
+[0.014036] (pubsub_challenge) JobStarted: {'identifier': 'pubsub_challenge'}
+[0.022179] (patrolling_example) JobProgress: {'identifier': 'patrolling_example', 'progress': 'cmake'}
+[0.022691] (patrolling_example) Command: {'cmd': ['/usr/bin/cmake', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/597e6b2b_687c_4efe_8f25_25217ce3d992'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1470'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble')]), 'shell': False}
+[0.027610] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'cmake'}
+[0.028528] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'build'}
+[0.029938] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge', '--', '-j8', '-l8'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/597e6b2b_687c_4efe_8f25_25217ce3d992'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1470'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble')]), 'shell': False}
+[0.058458] (pubsub_challenge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.089903] (patrolling_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.099683] (-) TimerEvent: {}
+[0.157144] (patrolling_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.165997] (patrolling_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199816] (-) TimerEvent: {}
+[0.226523] (pubsub_challenge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.237129] (pubsub_challenge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.247616] (patrolling_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.258640] (patrolling_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.259029] (patrolling_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.259727] (patrolling_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.265682] (patrolling_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.281157] (pubsub_challenge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.284329] (pubsub_challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.292053] (pubsub_challenge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.299931] (-) TimerEvent: {}
+[0.306409] (pubsub_challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.326097] (pubsub_challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.358532] (patrolling_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.367938] (patrolling_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.368341] (patrolling_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.368995] (patrolling_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.372649] (patrolling_example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400055] (-) TimerEvent: {}
+[0.402647] (pubsub_challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.404299] (pubsub_challenge) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.441679] (pubsub_challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.500195] (-) TimerEvent: {}
+[0.589885] (patrolling_example) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.600341] (-) TimerEvent: {}
+[0.665093] (patrolling_example) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700440] (-) TimerEvent: {}
+[0.704735] (patrolling_example) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.770728] (patrolling_example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.776535] (pubsub_challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.778601] (patrolling_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.790940] (patrolling_example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.794137] (pubsub_challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[0.797415] (pubsub_challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge\n'}
+[0.800533] (-) TimerEvent: {}
+[0.810342] (patrolling_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.825897] (pubsub_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.826227] (pubsub_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.839773] (patrolling_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.849972] (pubsub_challenge) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.853468] (pubsub_challenge) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[0.866162] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[0.899939] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'install'}
+[0.900614] (-) TimerEvent: {}
+[0.909942] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/597e6b2b_687c_4efe_8f25_25217ce3d992'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1470'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble')]), 'shell': False}
+[0.918118] (pubsub_challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.918768] (pubsub_challenge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.919299] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/lib/pubsub_challenge/talker\n'}
+[0.919630] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/lib/pubsub_challenge/listener\n'}
+[0.919991] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/package_run_dependencies/pubsub_challenge\n'}
+[0.920377] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/parent_prefix_path/pubsub_challenge\n'}
+[0.920756] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.sh\n'}
+[0.921172] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.dsv\n'}
+[0.921535] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/path.sh\n'}
+[0.921890] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/path.dsv\n'}
+[0.922216] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.bash\n'}
+[0.922556] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.sh\n'}
+[0.922956] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.zsh\n'}
+[0.923371] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.dsv\n'}
+[0.923671] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/package.dsv\n'}
+[0.934425] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/packages/pubsub_challenge\n'}
+[0.934831] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig.cmake\n'}
+[0.935039] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig-version.cmake\n'}
+[0.935437] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/package.xml\n'}
+[0.937586] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[0.946296] (patrolling_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.952370] (patrolling_example) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.000754] (-) TimerEvent: {}
+[1.003152] (patrolling_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.013811] (pubsub_challenge) JobEnded: {'identifier': 'pubsub_challenge', 'rc': 0}
+[1.021889] (patrolling_example) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.100892] (-) TimerEvent: {}
+[1.114501] (patrolling_example) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.114876] (patrolling_example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201037] (-) TimerEvent: {}
+[1.206043] (patrolling_example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.207663] (patrolling_example) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301169] (-) TimerEvent: {}
+[1.401486] (-) TimerEvent: {}
+[1.411763] (patrolling_example) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.464576] (patrolling_example) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.501597] (-) TimerEvent: {}
+[1.587059] (patrolling_example) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.601746] (-) TimerEvent: {}
+[1.642031] (patrolling_example) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.6 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.701894] (-) TimerEvent: {}
+[1.802233] (-) TimerEvent: {}
+[1.902613] (-) TimerEvent: {}
+[1.975242] (patrolling_example) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.002735] (-) TimerEvent: {}
+[2.079103] (patrolling_example) StdoutLine: {'line': b'-- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  \n'}
+[2.079387] (patrolling_example) StdoutLine: {'line': b'-- ZeroMQ found.\n'}
+[2.102896] (-) TimerEvent: {}
+[2.179184] (patrolling_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.202997] (-) TimerEvent: {}
+[2.221312] (patrolling_example) StdoutLine: {'line': b'-- Generating done\n'}
+[2.223840] (patrolling_example) StdoutLine: {'line': b'-- Build files have been written to: /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example\n'}
+[2.236595] (patrolling_example) CommandEnded: {'returncode': 0}
+[2.237359] (patrolling_example) JobProgress: {'identifier': 'patrolling_example', 'progress': 'build'}
+[2.237788] (patrolling_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example', '--', '-j8', '-l8'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/597e6b2b_687c_4efe_8f25_25217ce3d992'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1470'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble')]), 'shell': False}
+[2.297094] (patrolling_example) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/location_bt_node.dir/src/patrolling_example/Location.cpp.o\x1b[0m\n'}
+[2.298207] (patrolling_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/recharge_bt_node.dir/src/patrolling_example/Recharge.cpp.o\x1b[0m\n'}
+[2.298563] (patrolling_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/patrolling_example.dir/src/patrolling_example_main.cpp.o\x1b[0m\n'}
+[2.298873] (patrolling_example) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/get_waypoint_bt_node.dir/src/patrolling_example/GetWaypoint.cpp.o\x1b[0m\n'}
+[2.301805] (patrolling_example) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/move_bt_node.dir/src/patrolling_example/Move.cpp.o\x1b[0m\n'}
+[2.302369] (patrolling_example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_checker_bt_node.dir/src/patrolling_example/BatteryChecker.cpp.o\x1b[0m\n'}
+[2.303079] (-) TimerEvent: {}
+[2.403374] (-) TimerEvent: {}
+[2.503935] (-) TimerEvent: {}
+[2.604352] (-) TimerEvent: {}
+[2.704852] (-) TimerEvent: {}
+[2.805170] (-) TimerEvent: {}
+[2.905496] (-) TimerEvent: {}
+[3.005841] (-) TimerEvent: {}
+[3.106206] (-) TimerEvent: {}
+[3.206564] (-) TimerEvent: {}
+[3.306905] (-) TimerEvent: {}
+[3.407252] (-) TimerEvent: {}
+[3.507605] (-) TimerEvent: {}
+[3.607955] (-) TimerEvent: {}
+[3.708281] (-) TimerEvent: {}
+[3.808649] (-) TimerEvent: {}
+[3.908988] (-) TimerEvent: {}
+[4.009359] (-) TimerEvent: {}
+[4.109705] (-) TimerEvent: {}
+[4.210046] (-) TimerEvent: {}
+[4.310408] (-) TimerEvent: {}
+[4.410752] (-) TimerEvent: {}
+[4.511118] (-) TimerEvent: {}
+[4.611454] (-) TimerEvent: {}
+[4.711802] (-) TimerEvent: {}
+[4.812174] (-) TimerEvent: {}
+[4.912528] (-) TimerEvent: {}
+[5.012872] (-) TimerEvent: {}
+[5.113350] (-) TimerEvent: {}
+[5.213711] (-) TimerEvent: {}
+[5.314257] (-) TimerEvent: {}
+[5.318989] (patrolling_example) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librecharge_bt_node.so\x1b[0m\n'}
+[5.414365] (-) TimerEvent: {}
+[5.514881] (-) TimerEvent: {}
+[5.593402] (patrolling_example) StdoutLine: {'line': b'[ 58%] Built target recharge_bt_node\n'}
+[5.614987] (-) TimerEvent: {}
+[5.715347] (-) TimerEvent: {}
+[5.815681] (-) TimerEvent: {}
+[5.916018] (-) TimerEvent: {}
+[6.016377] (-) TimerEvent: {}
+[6.116743] (-) TimerEvent: {}
+[6.217109] (-) TimerEvent: {}
+[6.317469] (-) TimerEvent: {}
+[6.417838] (-) TimerEvent: {}
+[6.518224] (-) TimerEvent: {}
+[6.619181] (-) TimerEvent: {}
+[6.719525] (-) TimerEvent: {}
+[6.819885] (-) TimerEvent: {}
+[6.920224] (-) TimerEvent: {}
+[7.020733] (-) TimerEvent: {}
+[7.121269] (-) TimerEvent: {}
+[7.221830] (-) TimerEvent: {}
+[7.322263] (-) TimerEvent: {}
+[7.422597] (-) TimerEvent: {}
+[7.522939] (-) TimerEvent: {}
+[7.623290] (-) TimerEvent: {}
+[7.723622] (-) TimerEvent: {}
+[7.823965] (-) TimerEvent: {}
+[7.924363] (-) TimerEvent: {}
+[8.024686] (-) TimerEvent: {}
+[8.034300] (patrolling_example) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library liblocation_bt_node.so\x1b[0m\n'}
+[8.124805] (-) TimerEvent: {}
+[8.225148] (-) TimerEvent: {}
+[8.264366] (patrolling_example) StdoutLine: {'line': b'[ 66%] Built target location_bt_node\n'}
+[8.325288] (-) TimerEvent: {}
+[8.425728] (-) TimerEvent: {}
+[8.526132] (-) TimerEvent: {}
+[8.626472] (-) TimerEvent: {}
+[8.679687] (patrolling_example) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libget_waypoint_bt_node.so\x1b[0m\n'}
+[8.726581] (-) TimerEvent: {}
+[8.826944] (-) TimerEvent: {}
+[8.927306] (-) TimerEvent: {}
+[8.971110] (patrolling_example) StdoutLine: {'line': b'[ 75%] Built target get_waypoint_bt_node\n'}
+[9.027407] (-) TimerEvent: {}
+[9.127783] (-) TimerEvent: {}
+[9.228104] (-) TimerEvent: {}
+[9.328507] (-) TimerEvent: {}
+[9.428917] (-) TimerEvent: {}
+[9.529327] (-) TimerEvent: {}
+[9.629743] (-) TimerEvent: {}
+[9.730135] (-) TimerEvent: {}
+[9.830587] (-) TimerEvent: {}
+[9.916694] (patrolling_example) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable patrolling_example\x1b[0m\n'}
+[9.930723] (-) TimerEvent: {}
+[10.031020] (-) TimerEvent: {}
+[10.131561] (-) TimerEvent: {}
+[10.214027] (patrolling_example) StdoutLine: {'line': b'[ 83%] Built target patrolling_example\n'}
+[10.231664] (-) TimerEvent: {}
+[10.332058] (-) TimerEvent: {}
+[10.432469] (-) TimerEvent: {}
+[10.532773] (-) TimerEvent: {}
+[10.633148] (-) TimerEvent: {}
+[10.733477] (-) TimerEvent: {}
+[10.833810] (-) TimerEvent: {}
+[10.934208] (-) TimerEvent: {}
+[11.034617] (-) TimerEvent: {}
+[11.134986] (-) TimerEvent: {}
+[11.235323] (-) TimerEvent: {}
+[11.284684] (patrolling_example) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libmove_bt_node.so\x1b[0m\n'}
+[11.335469] (-) TimerEvent: {}
+[11.435873] (-) TimerEvent: {}
+[11.536212] (-) TimerEvent: {}
+[11.597987] (patrolling_example) StdoutLine: {'line': b'[ 91%] Built target move_bt_node\n'}
+[11.636345] (-) TimerEvent: {}
+[11.736677] (-) TimerEvent: {}
+[11.837022] (-) TimerEvent: {}
+[11.937358] (-) TimerEvent: {}
+[12.037710] (-) TimerEvent: {}
+[12.138049] (-) TimerEvent: {}
+[12.238449] (-) TimerEvent: {}
+[12.338771] (-) TimerEvent: {}
+[12.439161] (-) TimerEvent: {}
+[12.539529] (-) TimerEvent: {}
+[12.639867] (-) TimerEvent: {}
+[12.740293] (-) TimerEvent: {}
+[12.840632] (-) TimerEvent: {}
+[12.940990] (-) TimerEvent: {}
+[13.041344] (-) TimerEvent: {}
+[13.141704] (-) TimerEvent: {}
+[13.242026] (-) TimerEvent: {}
+[13.342400] (-) TimerEvent: {}
+[13.442743] (-) TimerEvent: {}
+[13.543064] (-) TimerEvent: {}
+[13.643384] (-) TimerEvent: {}
+[13.743722] (-) TimerEvent: {}
+[13.844053] (-) TimerEvent: {}
+[13.944348] (-) TimerEvent: {}
+[14.044663] (-) TimerEvent: {}
+[14.144964] (-) TimerEvent: {}
+[14.245268] (-) TimerEvent: {}
+[14.345591] (-) TimerEvent: {}
+[14.445903] (-) TimerEvent: {}
+[14.546232] (-) TimerEvent: {}
+[14.646536] (-) TimerEvent: {}
+[14.746838] (-) TimerEvent: {}
+[14.847145] (-) TimerEvent: {}
+[14.947498] (-) TimerEvent: {}
+[15.047807] (-) TimerEvent: {}
+[15.148145] (-) TimerEvent: {}
+[15.248481] (-) TimerEvent: {}
+[15.348817] (-) TimerEvent: {}
+[15.449144] (-) TimerEvent: {}
+[15.549466] (-) TimerEvent: {}
+[15.650112] (-) TimerEvent: {}
+[15.750435] (-) TimerEvent: {}
+[15.850849] (-) TimerEvent: {}
+[15.951252] (-) TimerEvent: {}
+[16.051650] (-) TimerEvent: {}
+[16.152001] (-) TimerEvent: {}
+[16.252359] (-) TimerEvent: {}
+[16.352744] (-) TimerEvent: {}
+[16.453364] (-) TimerEvent: {}
+[16.553794] (-) TimerEvent: {}
+[16.654141] (-) TimerEvent: {}
+[16.754508] (-) TimerEvent: {}
+[16.762117] (patrolling_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_checker_bt_node.so\x1b[0m\n'}
+[16.854659] (-) TimerEvent: {}
+[16.955044] (-) TimerEvent: {}
+[17.055419] (-) TimerEvent: {}
+[17.155792] (-) TimerEvent: {}
+[17.256146] (-) TimerEvent: {}
+[17.356536] (-) TimerEvent: {}
+[17.456883] (-) TimerEvent: {}
+[17.501436] (patrolling_example) StdoutLine: {'line': b'[100%] Built target battery_checker_bt_node\n'}
+[17.514169] (patrolling_example) CommandEnded: {'returncode': 0}
+[17.557002] (-) TimerEvent: {}
+[17.564303] (patrolling_example) JobProgress: {'identifier': 'patrolling_example', 'progress': 'install'}
+[17.565637] (patrolling_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/597e6b2b_687c_4efe_8f25_25217ce3d992'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1470'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/patrolling_example'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge:/opt/ros/humble')]), 'shell': False}
+[17.573482] (patrolling_example) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[17.574506] (patrolling_example) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.575335] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/librecharge_bt_node.so\n'}
+[17.584903] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/liblocation_bt_node.so\n'}
+[17.594606] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libmove_bt_node.so\n'}
+[17.604057] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libget_waypoint_bt_node.so\n'}
+[17.613603] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libbattery_checker_bt_node.so\n'}
+[17.622871] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/patrolling_example/patrolling_example\n'}
+[17.632484] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/BatteryChecker.hpp\n'}
+[17.641516] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/GetWaypoint.hpp\n'}
+[17.650505] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Location.hpp\n'}
+[17.657127] (-) TimerEvent: {}
+[17.659565] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Move.hpp\n'}
+[17.668470] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Recharge.hpp\n'}
+[17.677514] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/ctrl_support/BTActionNode.hpp\n'}
+[17.687217] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/ctrl_support/BTLifecycleCtrlNode.hpp\n'}
+[17.697189] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/launch/example_bringup.py\n'}
+[17.706264] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/param/waffle.yaml\n'}
+[17.715611] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/map/map.pgm\n'}
+[17.724438] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/map/map.yaml\n'}
+[17.733506] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/behavior_tree_xml/example.xml\n'}
+[17.742716] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/package_run_dependencies/patrolling_example\n'}
+[17.751700] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/parent_prefix_path/patrolling_example\n'}
+[17.757251] (-) TimerEvent: {}
+[17.760842] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/ament_prefix_path.sh\n'}
+[17.769780] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/ament_prefix_path.dsv\n'}
+[17.779087] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/path.sh\n'}
+[17.788934] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/path.dsv\n'}
+[17.798520] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.bash\n'}
+[17.808873] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.sh\n'}
+[17.818173] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.zsh\n'}
+[17.827399] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.dsv\n'}
+[17.836413] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/package.dsv\n'}
+[17.845678] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/packages/patrolling_example\n'}
+[17.855141] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.857350] (-) TimerEvent: {}
+[17.864291] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.873538] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/patrolling_exampleConfig.cmake\n'}
+[17.882504] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/patrolling_exampleConfig-version.cmake\n'}
+[17.892408] (patrolling_example) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/package.xml\n'}
+[17.903628] (patrolling_example) CommandEnded: {'returncode': 0}
+[17.957465] (-) TimerEvent: {}
+[17.982016] (patrolling_example) JobEnded: {'identifier': 'patrolling_example', 'rc': 0}
+[17.983216] (-) EventReactorShutdown: {}

@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (patrolling_example) JobQueued: {'identifier': 'patrolling_example', 'dependencies': OrderedDict()}
+[0.001030] (pubsub_challenge) JobQueued: {'identifier': 'pubsub_challenge', 'dependencies': OrderedDict()}
+[0.001813] (patrolling_example) JobStarted: {'identifier': 'patrolling_example'}
+[0.018343] (pubsub_challenge) JobStarted: {'identifier': 'pubsub_challenge'}
+[0.023984] (patrolling_example) JobProgress: {'identifier': 'patrolling_example', 'progress': 'cmake'}
+[0.024917] (patrolling_example) JobProgress: {'identifier': 'patrolling_example', 'progress': 'build'}
+[0.025618] (patrolling_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example', '--', '-j8', '-l8'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/smartloc_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('JOURNAL_STREAM', '8:32274'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('INVOCATION_ID', 'cffda2a1f6a74dc0bfa29bdf81110a20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('TILIX_ID', 'b7be44fe-06c8-4ed5-81e9-26a298559963'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031151] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'cmake'}
+[0.032296] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'build'}
+[0.032998] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge', '--', '-j8', '-l8'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/smartloc_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('JOURNAL_STREAM', '8:32274'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('INVOCATION_ID', 'cffda2a1f6a74dc0bfa29bdf81110a20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('TILIX_ID', 'b7be44fe-06c8-4ed5-81e9-26a298559963'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.080123] (patrolling_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target recharge_bt_node\x1b[0m\n'}
+[0.080867] (patrolling_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target location_bt_node\x1b[0m\n'}
+[0.081154] (patrolling_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target get_waypoint_bt_node\x1b[0m\n'}
+[0.081378] (patrolling_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move_bt_node\x1b[0m\n'}
+[0.081582] (patrolling_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_checker_bt_node\x1b[0m\n'}
+[0.082661] (patrolling_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target patrolling_example\x1b[0m\n'}
+[0.099536] (-) TimerEvent: {}
+[0.114564] (patrolling_example) StdoutLine: {'line': b'[ 16%] Built target recharge_bt_node\n'}
+[0.115927] (pubsub_challenge) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.116837] (patrolling_example) StdoutLine: {'line': b'[ 33%] Built target battery_checker_bt_node\n'}
+[0.117448] (pubsub_challenge) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[0.121010] (patrolling_example) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/move_bt_node.dir/src/patrolling_example/Move.cpp.o\x1b[0m\n'}
+[0.121301] (patrolling_example) StdoutLine: {'line': b'[ 58%] Built target patrolling_example\n'}
+[0.121948] (patrolling_example) StdoutLine: {'line': b'[ 75%] Built target get_waypoint_bt_node\n'}
+[0.127355] (patrolling_example) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/location_bt_node.dir/src/patrolling_example/Location.cpp.o\x1b[0m\n'}
+[0.134290] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[0.175456] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'install'}
+[0.185097] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/smartloc_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('JOURNAL_STREAM', '8:32274'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('INVOCATION_ID', 'cffda2a1f6a74dc0bfa29bdf81110a20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('TILIX_ID', 'b7be44fe-06c8-4ed5-81e9-26a298559963'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.195191] (pubsub_challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.195949] (pubsub_challenge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.196881] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/lib/pubsub_challenge/talker\n'}
+[0.197275] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/lib/pubsub_challenge/listener\n'}
+[0.197736] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/ament_index/resource_index/package_run_dependencies/pubsub_challenge\n'}
+[0.198149] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/ament_index/resource_index/parent_prefix_path/pubsub_challenge\n'}
+[0.198487] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.sh\n'}
+[0.198909] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.dsv\n'}
+[0.199239] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/environment/path.sh\n'}
+[0.199566] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/environment/path.dsv\n'}
+[0.199717] (-) TimerEvent: {}
+[0.199913] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/local_setup.bash\n'}
+[0.200239] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/local_setup.sh\n'}
+[0.200571] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/local_setup.zsh\n'}
+[0.200859] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/local_setup.dsv\n'}
+[0.201102] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/package.dsv\n'}
+[0.212158] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/ament_index/resource_index/packages/pubsub_challenge\n'}
+[0.212675] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig.cmake\n'}
+[0.212926] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig-version.cmake\n'}
+[0.213354] (pubsub_challenge) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/package.xml\n'}
+[0.216567] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[0.294445] (pubsub_challenge) JobEnded: {'identifier': 'pubsub_challenge', 'rc': 0}
+[0.299837] (-) TimerEvent: {}
+[0.400153] (-) TimerEvent: {}
+[0.500511] (-) TimerEvent: {}
+[0.600892] (-) TimerEvent: {}
+[0.701222] (-) TimerEvent: {}
+[0.801606] (-) TimerEvent: {}
+[0.901925] (-) TimerEvent: {}
+[1.002320] (-) TimerEvent: {}
+[1.102620] (-) TimerEvent: {}
+[1.202985] (-) TimerEvent: {}
+[1.303353] (-) TimerEvent: {}
+[1.403678] (-) TimerEvent: {}
+[1.504049] (-) TimerEvent: {}
+[1.604472] (-) TimerEvent: {}
+[1.704782] (-) TimerEvent: {}
+[1.805143] (-) TimerEvent: {}
+[1.905479] (-) TimerEvent: {}
+[2.005855] (-) TimerEvent: {}
+[2.106220] (-) TimerEvent: {}
+[2.206629] (-) TimerEvent: {}
+[2.307009] (-) TimerEvent: {}
+[2.407394] (-) TimerEvent: {}
+[2.507747] (-) TimerEvent: {}
+[2.608094] (-) TimerEvent: {}
+[2.708514] (-) TimerEvent: {}
+[2.808891] (-) TimerEvent: {}
+[2.909304] (-) TimerEvent: {}
+[3.009655] (-) TimerEvent: {}
+[3.110064] (-) TimerEvent: {}
+[3.210430] (-) TimerEvent: {}
+[3.310827] (-) TimerEvent: {}
+[3.411165] (-) TimerEvent: {}
+[3.511504] (-) TimerEvent: {}
+[3.611869] (-) TimerEvent: {}
+[3.710035] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpatrolling_example::Location::Location(const string&, const BT::NodeConfiguration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.710292] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:39:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvel_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.710375] (patrolling_example) StderrLine: {'line': b'   39 |   \x1b[01;31m\x1b[Kvel_pub_\x1b[m\x1b[K = node_->create_publisher<geometry_msgs::msg::Twist>("/output_vel", 100);\n'}
+[3.710463] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.711976] (-) TimerEvent: {}
+[3.721424] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktag_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.721668] (patrolling_example) StderrLine: {'line': b'   40 |   \x1b[01;31m\x1b[Ktag_pub_\x1b[m\x1b[K = node_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100);\n'}
+[3.721773] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.731266] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.731504] (patrolling_example) StderrLine: {'line': b'   40 |   tag_pub_ = node_->create_publisher<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::msg::TagInfo>("/tag_info", 100);\n'}
+[3.731796] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.731927] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[3.732021] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.732109] (patrolling_example) StderrLine: {'line': b'   40 |   tag_pub_ = node_->\x1b[01;31m\x1b[Kcreate_publisher<custom_interfaces::msg::TagInfo>\x1b[m\x1b[K("/tag_info", 100);\n'}
+[3.732207] (patrolling_example) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.732277] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_publisher<<expression error> >(const char [10], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.732365] (patrolling_example) StderrLine: {'line': b'   40 |   tag_pub_ = \x1b[01;31m\x1b[Knode_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100)\x1b[m\x1b[K;\n'}
+[3.732444] (patrolling_example) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.732516] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[3.732586] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.732656] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.732736] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.732806] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Location.hpp:27\x1b[m\x1b[K,\n'}
+[3.732876] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:18\x1b[m\x1b[K:\n'}
+[3.732945] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.733027] (patrolling_example) StderrLine: {'line': b'   73 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[3.733097] (patrolling_example) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.733166] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.733235] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.733304] (patrolling_example) StderrLine: {'line': b'   40 |   tag_pub_ = \x1b[01;31m\x1b[Knode_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100)\x1b[m\x1b[K;\n'}
+[3.733383] (patrolling_example) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.737919] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:41:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kloc_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.738164] (patrolling_example) StderrLine: {'line': b'   41 |   \x1b[01;31m\x1b[Kloc_sub_\x1b[m\x1b[K = node_->create_subscription<geometry_msgs::msg::PoseWithCovarianceStamped>(\n'}
+[3.738342] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.738763] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:41:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoseWithCovarianceStamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.738988] (patrolling_example) StderrLine: {'line': b'   41 |   loc_sub_ = node_->create_subscription<geometry_msgs::msg::\x1b[01;31m\x1b[KPoseWithCovarianceStamped\x1b[m\x1b[K>(\n'}
+[3.739075] (patrolling_example) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.739151] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:43:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kloc_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpatrolling_example::Location\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.739226] (patrolling_example) StderrLine: {'line': b'   43 |     std::bind(&Location::\x1b[01;31m\x1b[Kloc_callback\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[3.739297] (patrolling_example) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.747107] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_client_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.747469] (patrolling_example) StderrLine: {'line': b'   45 |   \x1b[01;31m\x1b[Ksrv_client_\x1b[m\x1b[K = node_->create_client<custom_interfaces::srv::RfidSim>("rfid_sim");\n'}
+[3.747598] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.747689] (patrolling_example) StderrLine: {'line': b'      |   \x1b[32m\x1b[Krmw_client_t\x1b[m\x1b[K\n'}
+[3.747773] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[3.747846] (patrolling_example) StderrLine: {'line': b'   45 |   srv_client_ = node_->\x1b[01;31m\x1b[Kcreate_client<custom_interfaces::srv::RfidSim>\x1b[m\x1b[K("rfid_sim");\n'}
+[3.747950] (patrolling_example) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.748019] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_client<custom_interfaces>(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.748105] (patrolling_example) StderrLine: {'line': b'   45 |   srv_client_ = \x1b[01;31m\x1b[Knode_->create_client<custom_interfaces::srv::RfidSim>("rfid_sim")\x1b[m\x1b[K;\n'}
+[3.748180] (patrolling_example) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.748250] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.748319] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.748413] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.748485] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Location.hpp:27\x1b[m\x1b[K,\n'}
+[3.748569] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:18\x1b[m\x1b[K:\n'}
+[3.748639] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.748720] (patrolling_example) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[3.748791] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.748858] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.812089] (-) TimerEvent: {}
+[3.912470] (-) TimerEvent: {}
+[4.012851] (-) TimerEvent: {}
+[4.113216] (-) TimerEvent: {}
+[4.213591] (-) TimerEvent: {}
+[4.313925] (-) TimerEvent: {}
+[4.414294] (-) TimerEvent: {}
+[4.514637] (-) TimerEvent: {}
+[4.615014] (-) TimerEvent: {}
+[4.651359] (patrolling_example) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/location_bt_node.dir/build.make:76: CMakeFiles/location_bt_node.dir/src/patrolling_example/Location.cpp.o] Error 1\n'}
+[4.651865] (patrolling_example) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/location_bt_node.dir/all] Error 2\n'}
+[4.652023] (patrolling_example) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.715143] (-) TimerEvent: {}
+[4.815498] (-) TimerEvent: {}
+[4.915865] (-) TimerEvent: {}
+[5.016229] (-) TimerEvent: {}
+[5.116699] (-) TimerEvent: {}
+[5.217062] (-) TimerEvent: {}
+[5.317432] (-) TimerEvent: {}
+[5.417824] (-) TimerEvent: {}
+[5.518186] (-) TimerEvent: {}
+[5.618540] (-) TimerEvent: {}
+[5.718902] (-) TimerEvent: {}
+[5.819272] (-) TimerEvent: {}
+[5.919598] (-) TimerEvent: {}
+[6.019944] (-) TimerEvent: {}
+[6.120294] (-) TimerEvent: {}
+[6.220695] (-) TimerEvent: {}
+[6.321078] (-) TimerEvent: {}
+[6.421407] (-) TimerEvent: {}
+[6.521760] (-) TimerEvent: {}
+[6.622069] (-) TimerEvent: {}
+[6.722373] (-) TimerEvent: {}
+[6.791790] (patrolling_example) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libmove_bt_node.so\x1b[0m\n'}
+[6.822474] (-) TimerEvent: {}
+[6.922902] (-) TimerEvent: {}
+[7.023316] (-) TimerEvent: {}
+[7.076463] (patrolling_example) StdoutLine: {'line': b'[ 91%] Built target move_bt_node\n'}
+[7.078031] (patrolling_example) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.080495] (patrolling_example) CommandEnded: {'returncode': 2}
+[7.123404] (-) TimerEvent: {}
+[7.141213] (patrolling_example) JobEnded: {'identifier': 'patrolling_example', 'rc': 2}
+[7.142752] (-) EventReactorShutdown: {}

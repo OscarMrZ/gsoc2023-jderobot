@@ -1,0 +1,105 @@
+[0.018s] Invoking command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/patrolling_example
+[0.107s] -- The C compiler identification is GNU 11.3.0
+[0.184s] -- The CXX compiler identification is GNU 11.3.0
+[0.194s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.414s] -- Detecting CXX compiler ABI info - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.426s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.431s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.677s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.756s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.797s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.874s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.882s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.897s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.925s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.095s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.100s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.154s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.172s] -- Looking for pthread.h
+[1.270s] -- Looking for pthread.h - found
+[1.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.374s] -- Found Threads: TRUE  
+[1.613s] -- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.684s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.843s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.927s] -- Found nav2_msgs: 1.1.6 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.301s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.423s] -- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+[2.423s] -- ZeroMQ found.
+[2.538s] -- Configuring done
+[2.543s] [31mCMake Error at CMakeLists.txt:47 (add_library):
+[2.544s]   Cannot find source file:
+[2.544s] 
+[2.544s]     src/patrolling_example/Recharge.cpp
+[2.544s] 
+[2.544s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.544s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.544s] 
+[2.544s] [0m
+[2.545s] [31mCMake Error at CMakeLists.txt:48 (add_library):
+[2.546s]   Cannot find source file:
+[2.546s] 
+[2.546s]     src/patrolling_example/Location.cpp
+[2.546s] 
+[2.546s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.546s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.546s] 
+[2.546s] [0m
+[2.546s] [31mCMake Error at CMakeLists.txt:49 (add_library):
+[2.547s]   Cannot find source file:
+[2.547s] 
+[2.547s]     src/patrolling_example/Move.cpp
+[2.547s] 
+[2.547s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.547s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.547s] 
+[2.547s] [0m
+[2.547s] [31mCMake Error at CMakeLists.txt:50 (add_library):
+[2.547s]   Cannot find source file:
+[2.547s] 
+[2.547s]     src/patrolling_example/GetWaypoint.cpp
+[2.547s] 
+[2.547s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.547s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.548s] 
+[2.548s] [0m
+[2.548s] [31mCMake Error at CMakeLists.txt:51 (add_library):
+[2.548s]   Cannot find source file:
+[2.548s] 
+[2.548s]     src/patrolling_example/BatteryChecker.cpp
+[2.548s] 
+[2.548s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.548s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.548s] 
+[2.548s] [0m
+[2.549s] [31mCMake Error at CMakeLists.txt:47 (add_library):
+[2.549s]   No SOURCES given to target: recharge_bt_node
+[2.549s] 
+[2.549s] [0m
+[2.549s] [31mCMake Error at CMakeLists.txt:48 (add_library):
+[2.549s]   No SOURCES given to target: location_bt_node
+[2.549s] 
+[2.549s] [0m
+[2.549s] [31mCMake Error at CMakeLists.txt:49 (add_library):
+[2.549s]   No SOURCES given to target: move_bt_node
+[2.549s] 
+[2.549s] [0m
+[2.549s] [31mCMake Error at CMakeLists.txt:50 (add_library):
+[2.549s]   No SOURCES given to target: get_waypoint_bt_node
+[2.550s] 
+[2.550s] [0m
+[2.550s] [31mCMake Error at CMakeLists.txt:51 (add_library):
+[2.550s]   No SOURCES given to target: battery_checker_bt_node
+[2.550s] 
+[2.550s] [0m
+[2.550s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.561s] Invoked command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/patrolling_example

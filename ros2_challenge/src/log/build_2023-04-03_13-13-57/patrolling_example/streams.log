@@ -1,0 +1,78 @@
+[0.027s] Invoking command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example -- -j8 -l8
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target recharge_bt_node[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target location_bt_node[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target get_waypoint_bt_node[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target move_bt_node[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target battery_checker_bt_node[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target patrolling_example[0m
+[0.113s] [ 16%] Built target recharge_bt_node
+[0.115s] [ 33%] Built target battery_checker_bt_node
+[0.119s] [ 58%] [32mBuilding CXX object CMakeFiles/move_bt_node.dir/src/patrolling_example/Move.cpp.o[0m
+[0.120s] [ 58%] Built target patrolling_example
+[0.120s] [ 75%] Built target get_waypoint_bt_node
+[0.126s] [ 83%] [32mBuilding CXX object CMakeFiles/location_bt_node.dir/src/patrolling_example/Location.cpp.o[0m
+[3.708s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:[m[K In constructor ‘[01m[Kpatrolling_example::Location::Location(const string&, const BT::NodeConfiguration&)[m[K’:
+[3.708s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_pub_[m[K’ was not declared in this scope
+[3.709s]    39 |   [01;31m[Kvel_pub_[m[K = node_->create_publisher<geometry_msgs::msg::Twist>("/output_vel", 100);
+[3.709s]       |   [01;31m[K^~~~~~~~[m[K
+[3.720s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktag_pub_[m[K’ was not declared in this scope
+[3.720s]    40 |   [01;31m[Ktag_pub_[m[K = node_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100);
+[3.720s]       |   [01;31m[K^~~~~~~~[m[K
+[3.730s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuiltin_interfaces[m[K’?
+[3.730s]    40 |   tag_pub_ = node_->create_publisher<[01;31m[Kcustom_interfaces[m[K::msg::TagInfo>("/tag_info", 100);
+[3.730s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.730s]       |                                      [32m[Kbuiltin_interfaces[m[K
+[3.730s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.730s]    40 |   tag_pub_ = node_->[01;31m[Kcreate_publisher<custom_interfaces::msg::TagInfo>[m[K("/tag_info", 100);
+[3.730s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.730s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [10], int)[m[K’
+[3.731s]    40 |   tag_pub_ = [01;31m[Knode_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100)[m[K;
+[3.731s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[3.731s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[3.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.731s]                  from [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Location.hpp:27[m[K,
+[3.731s]                  from [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:18[m[K:
+[3.731s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.731s]    73 | [01;36m[KNode[m[K::create_publisher(
+[3.731s]       | [01;36m[K^~~~[m[K
+[3.731s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.731s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.732s]    40 |   tag_pub_ = [01;31m[Knode_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100)[m[K;
+[3.732s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[3.736s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kloc_sub_[m[K’ was not declared in this scope
+[3.736s]    41 |   [01;31m[Kloc_sub_[m[K = node_->create_subscription<geometry_msgs::msg::PoseWithCovarianceStamped>(
+[3.737s]       |   [01;31m[K^~~~~~~~[m[K
+[3.737s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:41:61:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseWithCovarianceStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[3.737s]    41 |   loc_sub_ = node_->create_subscription<geometry_msgs::msg::[01;31m[KPoseWithCovarianceStamped[m[K>(
+[3.737s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.737s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:43:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kloc_callback[m[K’ is not a member of ‘[01m[Kpatrolling_example::Location[m[K’
+[3.737s]    43 |     std::bind(&Location::[01;31m[Kloc_callback[m[K, this, std::placeholders::_1));
+[3.737s]       |                          [01;31m[K^~~~~~~~~~~~[m[K
+[3.746s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_client_t[m[K’?
+[3.746s]    45 |   [01;31m[Ksrv_client_[m[K = node_->create_client<custom_interfaces::srv::RfidSim>("rfid_sim");
+[3.746s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.746s]       |   [32m[Krmw_client_t[m[K
+[3.746s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.746s]    45 |   srv_client_ = node_->[01;31m[Kcreate_client<custom_interfaces::srv::RfidSim>[m[K("rfid_sim");
+[3.746s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.746s] [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<custom_interfaces>(const char [9])[m[K’
+[3.746s]    45 |   srv_client_ = [01;31m[Knode_->create_client<custom_interfaces::srv::RfidSim>("rfid_sim")[m[K;
+[3.746s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.746s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.747s]                  from [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Location.hpp:27[m[K,
+[3.747s]                  from [01m[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:18[m[K:
+[3.747s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.747s]   252 |   [01;36m[Kcreate_client[m[K(
+[3.747s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.747s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.650s] gmake[2]: *** [CMakeFiles/location_bt_node.dir/build.make:76: CMakeFiles/location_bt_node.dir/src/patrolling_example/Location.cpp.o] Error 1
+[4.650s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/location_bt_node.dir/all] Error 2
+[4.650s] gmake[1]: *** Waiting for unfinished jobs....
+[6.790s] [ 91%] [32m[1mLinking CXX shared library libmove_bt_node.so[0m
+[7.075s] [ 91%] Built target move_bt_node
+[7.076s] gmake: *** [Makefile:146: all] Error 2
+[7.079s] Invoked command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example -- -j8 -l8

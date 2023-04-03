@@ -1,0 +1,2 @@
+Invoking command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example -- -j8 -l8
+Invoked command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example -- -j8 -l8

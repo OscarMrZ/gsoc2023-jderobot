@@ -1,0 +1,531 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (patrolling_example) JobQueued: {'identifier': 'patrolling_example', 'dependencies': OrderedDict()}
+[0.000388] (pubsub_challenge) JobQueued: {'identifier': 'pubsub_challenge', 'dependencies': OrderedDict()}
+[0.000930] (patrolling_example) JobStarted: {'identifier': 'patrolling_example'}
+[0.013775] (pubsub_challenge) JobStarted: {'identifier': 'pubsub_challenge'}
+[0.022186] (patrolling_example) JobProgress: {'identifier': 'patrolling_example', 'progress': 'cmake'}
+[0.023169] (patrolling_example) Command: {'cmd': ['/usr/bin/cmake', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/patrolling_example'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/smartloc_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('JOURNAL_STREAM', '8:32274'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('INVOCATION_ID', 'cffda2a1f6a74dc0bfa29bdf81110a20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('TILIX_ID', 'b7be44fe-06c8-4ed5-81e9-26a298559963'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029819] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'cmake'}
+[0.030830] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'build'}
+[0.031872] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge', '--', '-j8', '-l8'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/smartloc_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('JOURNAL_STREAM', '8:32274'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('INVOCATION_ID', 'cffda2a1f6a74dc0bfa29bdf81110a20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('TILIX_ID', 'b7be44fe-06c8-4ed5-81e9-26a298559963'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041248] (patrolling_example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.082566] (pubsub_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.082847] (pubsub_challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.099704] (-) TimerEvent: {}
+[0.108098] (pubsub_challenge) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.115474] (pubsub_challenge) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[0.130534] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[0.169584] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'install'}
+[0.181852] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/smartloc_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('JOURNAL_STREAM', '8:32274'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('INVOCATION_ID', 'cffda2a1f6a74dc0bfa29bdf81110a20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('TILIX_ID', 'b7be44fe-06c8-4ed5-81e9-26a298559963'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.191733] (pubsub_challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.192590] (pubsub_challenge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.193500] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/lib/pubsub_challenge/talker\n'}
+[0.199844] (-) TimerEvent: {}
+[0.205179] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/lib/pubsub_challenge/listener\n'}
+[0.216939] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/ament_index/resource_index/package_run_dependencies/pubsub_challenge\n'}
+[0.229321] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/ament_index/resource_index/parent_prefix_path/pubsub_challenge\n'}
+[0.240659] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.sh\n'}
+[0.245666] (patrolling_example) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.252275] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.dsv\n'}
+[0.255679] (patrolling_example) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.264194] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/environment/path.sh\n'}
+[0.274109] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/environment/path.dsv\n'}
+[0.285228] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/local_setup.bash\n'}
+[0.296755] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/local_setup.sh\n'}
+[0.299942] (-) TimerEvent: {}
+[0.306075] (patrolling_example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.306701] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/local_setup.zsh\n'}
+[0.310385] (patrolling_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.318281] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/local_setup.dsv\n'}
+[0.319841] (patrolling_example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.329403] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/package.dsv\n'}
+[0.336685] (patrolling_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.339849] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/ament_index/resource_index/packages/pubsub_challenge\n'}
+[0.351038] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig.cmake\n'}
+[0.359064] (patrolling_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.363590] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig-version.cmake\n'}
+[0.374320] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/install/pubsub_challenge/share/pubsub_challenge/package.xml\n'}
+[0.387847] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[0.400370] (-) TimerEvent: {}
+[0.465040] (patrolling_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.465481] (patrolling_example) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.476961] (pubsub_challenge) JobEnded: {'identifier': 'pubsub_challenge', 'rc': 0}
+[0.500464] (-) TimerEvent: {}
+[0.515437] (patrolling_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.600595] (-) TimerEvent: {}
+[0.700902] (-) TimerEvent: {}
+[0.728748] (patrolling_example) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.778266] (patrolling_example) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.800994] (-) TimerEvent: {}
+[0.896705] (patrolling_example) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.901106] (-) TimerEvent: {}
+[0.953317] (patrolling_example) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.6 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.001244] (-) TimerEvent: {}
+[1.101545] (-) TimerEvent: {}
+[1.201945] (-) TimerEvent: {}
+[1.302257] (-) TimerEvent: {}
+[1.353954] (patrolling_example) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.402389] (-) TimerEvent: {}
+[1.467366] (patrolling_example) StdoutLine: {'line': b'-- ZeroMQ found.\n'}
+[1.502521] (-) TimerEvent: {}
+[1.576427] (patrolling_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.602658] (-) TimerEvent: {}
+[1.624475] (patrolling_example) StdoutLine: {'line': b'-- Generating done\n'}
+[1.626781] (patrolling_example) StdoutLine: {'line': b'-- Build files have been written to: /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example\n'}
+[1.638272] (patrolling_example) CommandEnded: {'returncode': 0}
+[1.639330] (patrolling_example) JobProgress: {'identifier': 'patrolling_example', 'progress': 'build'}
+[1.639417] (patrolling_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example', '--', '-j8', '-l8'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/smartloc_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1445'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('JOURNAL_STREAM', '8:32274'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('INVOCATION_ID', 'cffda2a1f6a74dc0bfa29bdf81110a20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('TILIX_ID', 'b7be44fe-06c8-4ed5-81e9-26a298559963'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/build/patrolling_example'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f1e0dc7ea2db381e33e788f4642a8951'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.702775] (-) TimerEvent: {}
+[1.703616] (patrolling_example) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/patrolling_example.dir/src/patrolling_example_main.cpp.o\x1b[0m\n'}
+[1.704601] (patrolling_example) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/recharge_bt_node.dir/src/patrolling_example/Recharge.cpp.o\x1b[0m\n'}
+[1.705095] (patrolling_example) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/location_bt_node.dir/src/patrolling_example/Location.cpp.o\x1b[0m\n'}
+[1.707440] (patrolling_example) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/get_waypoint_bt_node.dir/src/patrolling_example/GetWaypoint.cpp.o\x1b[0m\n'}
+[1.707939] (patrolling_example) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/move_bt_node.dir/src/patrolling_example/Move.cpp.o\x1b[0m\n'}
+[1.708234] (patrolling_example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_checker_bt_node.dir/src/patrolling_example/BatteryChecker.cpp.o\x1b[0m\n'}
+[1.802883] (-) TimerEvent: {}
+[1.903276] (-) TimerEvent: {}
+[2.003652] (-) TimerEvent: {}
+[2.104004] (-) TimerEvent: {}
+[2.204343] (-) TimerEvent: {}
+[2.304679] (-) TimerEvent: {}
+[2.405026] (-) TimerEvent: {}
+[2.505383] (-) TimerEvent: {}
+[2.605730] (-) TimerEvent: {}
+[2.706109] (-) TimerEvent: {}
+[2.806469] (-) TimerEvent: {}
+[2.906847] (-) TimerEvent: {}
+[3.007212] (-) TimerEvent: {}
+[3.107569] (-) TimerEvent: {}
+[3.207933] (-) TimerEvent: {}
+[3.308275] (-) TimerEvent: {}
+[3.408616] (-) TimerEvent: {}
+[3.508958] (-) TimerEvent: {}
+[3.609347] (-) TimerEvent: {}
+[3.709701] (-) TimerEvent: {}
+[3.810295] (-) TimerEvent: {}
+[3.910952] (-) TimerEvent: {}
+[4.011408] (-) TimerEvent: {}
+[4.111860] (-) TimerEvent: {}
+[4.212227] (-) TimerEvent: {}
+[4.312885] (-) TimerEvent: {}
+[4.413274] (-) TimerEvent: {}
+[4.513751] (-) TimerEvent: {}
+[4.614116] (-) TimerEvent: {}
+[4.714475] (-) TimerEvent: {}
+[4.814802] (-) TimerEvent: {}
+[4.915433] (-) TimerEvent: {}
+[4.948156] (patrolling_example) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librecharge_bt_node.so\x1b[0m\n'}
+[5.015543] (-) TimerEvent: {}
+[5.116015] (-) TimerEvent: {}
+[5.216496] (-) TimerEvent: {}
+[5.304201] (patrolling_example) StdoutLine: {'line': b'[ 58%] Built target recharge_bt_node\n'}
+[5.316599] (-) TimerEvent: {}
+[5.416975] (-) TimerEvent: {}
+[5.517333] (-) TimerEvent: {}
+[5.617726] (-) TimerEvent: {}
+[5.718110] (-) TimerEvent: {}
+[5.818562] (-) TimerEvent: {}
+[5.919329] (-) TimerEvent: {}
+[6.019770] (-) TimerEvent: {}
+[6.120238] (-) TimerEvent: {}
+[6.220657] (-) TimerEvent: {}
+[6.321097] (-) TimerEvent: {}
+[6.421548] (-) TimerEvent: {}
+[6.522120] (-) TimerEvent: {}
+[6.622627] (-) TimerEvent: {}
+[6.723182] (-) TimerEvent: {}
+[6.823610] (-) TimerEvent: {}
+[6.924044] (-) TimerEvent: {}
+[7.024493] (-) TimerEvent: {}
+[7.125058] (-) TimerEvent: {}
+[7.204189] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.204497] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected template-name before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.204986] (patrolling_example) StderrLine: {'line': b'   30 | class Move : public patrolling_example::BtActionNode\x1b[01;31m\x1b[K<\x1b[m\x1b[Knav2_msgs::action::NavigateToPose>\n'}
+[7.205177] (patrolling_example) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.205335] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.205501] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.205648] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:32:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.205804] (patrolling_example) StderrLine: {'line': b'   32 |   const BT::NodeConfiguration & conf\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[7.205940] (patrolling_example) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.206084] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.206224] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.206369] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.206509] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.206647] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:39:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.206805] (patrolling_example) StderrLine: {'line': b'   39 | Move::on_tick(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[7.206973] (patrolling_example) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.207490] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.207654] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.207935] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.208100] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.208244] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:48:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.208389] (patrolling_example) StderrLine: {'line': b'   48 | Move::on_success(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[7.208527] (patrolling_example) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.208663] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.208802] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.208945] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.209087] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.223501] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.223796] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:66:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[KBT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)::<lambda(const string&, const BT::NodeConfiguration&)>\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[KBT::NodeBuilder\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[7.223984] (patrolling_example) StderrLine: {'line': b'   66 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[7.224112] (patrolling_example) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.225157] (-) TimerEvent: {}
+[7.325663] (-) TimerEvent: {}
+[7.355745] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[7.356058] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:18\x1b[m\x1b[K:\n'}
+[7.356253] (patrolling_example) StderrLine: {'line': b'/usr/include/c++/11/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = patrolling_example::Move; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const char (&)[17], const BT::NodeConfiguration&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<patrolling_example::Move, std::default_delete<patrolling_example::Move> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.356418] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:64:56:\x1b[m\x1b[K   required from here\n'}
+[7.356569] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:962:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.356723] (patrolling_example) StderrLine: {'line': b'  962 |     { return unique_ptr<_Tp>(\x1b[01;31m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[7.356880] (patrolling_example) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.357641] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.357881] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.358045] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.358215] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.425797] (-) TimerEvent: {}
+[7.460136] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpatrolling_example::Location::Location(const string&, const BT::NodeConfiguration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.460423] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:39:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvel_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.460590] (patrolling_example) StderrLine: {'line': b'   39 |   \x1b[01;31m\x1b[Kvel_pub_\x1b[m\x1b[K = node_->create_publisher<geometry_msgs::msg::Twist>("/output_vel", 100);\n'}
+[7.460740] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.480659] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktag_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.480946] (patrolling_example) StderrLine: {'line': b'   40 |   \x1b[01;31m\x1b[Ktag_pub_\x1b[m\x1b[K = node_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100);\n'}
+[7.481115] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.504573] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.505108] (patrolling_example) StderrLine: {'line': b'   40 |   tag_pub_ = node_->create_publisher<\x1b[01;31m\x1b[Kcustom_interfaces\x1b[m\x1b[K::msg::TagInfo>("/tag_info", 100);\n'}
+[7.505477] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.505816] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kbuiltin_interfaces\x1b[m\x1b[K\n'}
+[7.506171] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[7.506497] (patrolling_example) StderrLine: {'line': b'   40 |   tag_pub_ = node_->\x1b[01;31m\x1b[Kcreate_publisher<custom_interfaces::msg::TagInfo>\x1b[m\x1b[K("/tag_info", 100);\n'}
+[7.506810] (patrolling_example) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.507156] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_publisher<<expression error> >(const char [10], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.507508] (patrolling_example) StderrLine: {'line': b'   40 |   tag_pub_ = \x1b[01;31m\x1b[Knode_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100)\x1b[m\x1b[K;\n'}
+[7.507901] (patrolling_example) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.508227] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[7.508540] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.508858] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.509196] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.509551] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Location.hpp:27\x1b[m\x1b[K,\n'}
+[7.509861] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:18\x1b[m\x1b[K:\n'}
+[7.510198] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.510518] (patrolling_example) StderrLine: {'line': b'   73 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[7.510847] (patrolling_example) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.511192] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.511516] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:40:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.511835] (patrolling_example) StderrLine: {'line': b'   40 |   tag_pub_ = \x1b[01;31m\x1b[Knode_->create_publisher<custom_interfaces::msg::TagInfo>("/tag_info", 100)\x1b[m\x1b[K;\n'}
+[7.512153] (patrolling_example) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.517435] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:41:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kloc_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.517955] (patrolling_example) StderrLine: {'line': b'   41 |   \x1b[01;31m\x1b[Kloc_sub_\x1b[m\x1b[K = node_->create_subscription<geometry_msgs::msg::PoseWithCovarianceStamped>(\n'}
+[7.518429] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.518805] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:41:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoseWithCovarianceStamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.519190] (patrolling_example) StderrLine: {'line': b'   41 |   loc_sub_ = node_->create_subscription<geometry_msgs::msg::\x1b[01;31m\x1b[KPoseWithCovarianceStamped\x1b[m\x1b[K>(\n'}
+[7.519529] (patrolling_example) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.519857] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:43:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kloc_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpatrolling_example::Location\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.520180] (patrolling_example) StderrLine: {'line': b'   43 |     std::bind(&Location::\x1b[01;31m\x1b[Kloc_callback\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[7.520513] (patrolling_example) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.525906] (-) TimerEvent: {}
+[7.530069] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[7.530588] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:18\x1b[m\x1b[K:\n'}
+[7.530939] (patrolling_example) StderrLine: {'line': b'/usr/include/c++/11/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid std::default_delete<_Tp>::operator()(_Tp*) const [with _Tp = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.531644] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:361:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = patrolling_example::Move; _Dp = std::default_delete<patrolling_example::Move>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.532016] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:64:56:\x1b[m\x1b[K   required from here\n'}
+[7.532969] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:83:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[Kpatrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.533381] (patrolling_example) StderrLine: {'line': b'   83 |         static_assert(\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K>0,\n'}
+[7.534095] (patrolling_example) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.534465] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_client_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.534801] (patrolling_example) StderrLine: {'line': b'   45 |   \x1b[01;31m\x1b[Ksrv_client_\x1b[m\x1b[K = node_->create_client<custom_interfaces::srv::RfidSim>("rfid_sim");\n'}
+[7.535161] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.535486] (patrolling_example) StderrLine: {'line': b'      |   \x1b[32m\x1b[Krmw_client_t\x1b[m\x1b[K\n'}
+[7.535802] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[7.536117] (patrolling_example) StderrLine: {'line': b'   45 |   srv_client_ = node_->\x1b[01;31m\x1b[Kcreate_client<custom_interfaces::srv::RfidSim>\x1b[m\x1b[K("rfid_sim");\n'}
+[7.536883] (patrolling_example) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.537243] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:45:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_client<custom_interfaces>(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.537571] (patrolling_example) StderrLine: {'line': b'   45 |   srv_client_ = \x1b[01;31m\x1b[Knode_->create_client<custom_interfaces::srv::RfidSim>("rfid_sim")\x1b[m\x1b[K;\n'}
+[7.537946] (patrolling_example) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.538284] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.538621] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.538942] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.539287] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Location.hpp:27\x1b[m\x1b[K,\n'}
+[7.539627] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Location.cpp:18\x1b[m\x1b[K:\n'}
+[7.539938] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.540263] (patrolling_example) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[7.540586] (patrolling_example) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.540904] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.626037] (-) TimerEvent: {}
+[7.660400] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[7.662652] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[7.663034] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[7.663393] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.663733] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.664081] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:15\x1b[m\x1b[K:\n'}
+[7.664412] (patrolling_example) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::is_base_of<BT::ActionNodeBase, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.664735] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:83:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.665072] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.665416] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.665777] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.666120] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1422:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.666456] (patrolling_example) StderrLine: {'line': b' 1422 |     : public integral_constant<bool, \x1b[01;31m\x1b[K__is_base_of(_Base, _Derived)\x1b[m\x1b[K>\n'}
+[7.666797] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.667147] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.667479] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.667812] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.668162] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.668491] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:24\x1b[m\x1b[K,\n'}
+[7.668811] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.669148] (patrolling_example) StderrLine: {'line': b'/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.669469] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.669805] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.670135] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.670459] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:83:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::is_base_of<BT::ActionNodeBase, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.670796] (patrolling_example) StderrLine: {'line': b'   83 |     if( std::is_base_of<ActionNodeBase, T>::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K )        return NodeType::ACTION;\n'}
+[7.671132] (patrolling_example) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.671450] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[7.671754] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[7.672074] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[7.672385] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.672705] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.673012] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:15\x1b[m\x1b[K:\n'}
+[7.673324] (patrolling_example) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::is_base_of<BT::ConditionNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.673649] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:84:44:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.673972] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.674688] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.675120] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.675459] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1422:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.675803] (patrolling_example) StderrLine: {'line': b' 1422 |     : public integral_constant<bool, \x1b[01;31m\x1b[K__is_base_of(_Base, _Derived)\x1b[m\x1b[K>\n'}
+[7.676122] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.676453] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.676769] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.677104] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.677422] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.677780] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:24\x1b[m\x1b[K,\n'}
+[7.678137] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.678463] (patrolling_example) StderrLine: {'line': b'/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.678806] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.679168] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.679506] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.679826] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:84:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::is_base_of<BT::ConditionNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.680142] (patrolling_example) StderrLine: {'line': b'   84 |     if( std::is_base_of<ConditionNode, T>::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K )         return NodeType::CONDITION;\n'}
+[7.680457] (patrolling_example) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.680800] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[7.681153] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[7.681457] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[7.681784] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.682112] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.682445] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:15\x1b[m\x1b[K:\n'}
+[7.682853] (patrolling_example) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::is_base_of<BT::SubtreeNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.683226] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:85:42:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.683573] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.683914] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.684242] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.684572] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1422:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.684899] (patrolling_example) StderrLine: {'line': b' 1422 |     : public integral_constant<bool, \x1b[01;31m\x1b[K__is_base_of(_Base, _Derived)\x1b[m\x1b[K>\n'}
+[7.685223] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.685524] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.685835] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.686138] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.686431] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.686708] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:24\x1b[m\x1b[K,\n'}
+[7.687043] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.687377] (patrolling_example) StderrLine: {'line': b'/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.687699] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.688020] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.688390] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.688722] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:85:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::is_base_of<BT::SubtreeNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.689040] (patrolling_example) StderrLine: {'line': b'   85 |     if( std::is_base_of<SubtreeNode, T>::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K )           return NodeType::SUBTREE;\n'}
+[7.689363] (patrolling_example) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.689686] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[7.689995] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[7.690307] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[7.690619] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.691084] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.691407] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:15\x1b[m\x1b[K:\n'}
+[7.691722] (patrolling_example) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::is_base_of<BT::SubtreePlusNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.692054] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:86:46:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.692368] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.692692] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.693012] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.693332] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1422:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.693656] (patrolling_example) StderrLine: {'line': b' 1422 |     : public integral_constant<bool, \x1b[01;31m\x1b[K__is_base_of(_Base, _Derived)\x1b[m\x1b[K>\n'}
+[7.693969] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.694287] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.694611] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.694950] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.695304] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.695619] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:24\x1b[m\x1b[K,\n'}
+[7.695944] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.696303] (patrolling_example) StderrLine: {'line': b'/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.696652] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.697034] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.697381] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.697721] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:86:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::is_base_of<BT::SubtreePlusNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.698059] (patrolling_example) StderrLine: {'line': b'   86 |     if( std::is_base_of<SubtreePlusNode, T>::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K )       return NodeType::SUBTREE;\n'}
+[7.698449] (patrolling_example) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.698782] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[7.699132] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[7.699489] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[7.699807] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.700152] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.700472] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:15\x1b[m\x1b[K:\n'}
+[7.700789] (patrolling_example) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::is_base_of<BT::DecoratorNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.701113] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:87:44:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.701436] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.701763] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.702094] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.702402] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1422:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.702733] (patrolling_example) StderrLine: {'line': b' 1422 |     : public integral_constant<bool, \x1b[01;31m\x1b[K__is_base_of(_Base, _Derived)\x1b[m\x1b[K>\n'}
+[7.703068] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.703393] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.703736] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.704058] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.704389] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.704703] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:24\x1b[m\x1b[K,\n'}
+[7.705043] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.705377] (patrolling_example) StderrLine: {'line': b'/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.705698] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.706025] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.706360] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.706677] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:87:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::is_base_of<BT::DecoratorNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.708471] (patrolling_example) StderrLine: {'line': b'   87 |     if( std::is_base_of<DecoratorNode, T>::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K )         return NodeType::DECORATOR;\n'}
+[7.708837] (patrolling_example) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.709210] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[7.709554] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[7.709886] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[7.710223] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.710549] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.710882] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:15\x1b[m\x1b[K:\n'}
+[7.712768] (patrolling_example) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::is_base_of<BT::ControlNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.713149] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:88:42:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.713475] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.713820] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.714146] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.714487] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1422:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.714827] (patrolling_example) StderrLine: {'line': b' 1422 |     : public integral_constant<bool, \x1b[01;31m\x1b[K__is_base_of(_Base, _Derived)\x1b[m\x1b[K>\n'}
+[7.715174] (patrolling_example) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.715496] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.715820] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:30:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass patrolling_example::Move\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.716179] (patrolling_example) StderrLine: {'line': b'   30 | class \x1b[01;36m\x1b[KMove\x1b[m\x1b[K : public patrolling_example::BtActionNode<nav2_msgs::action::NavigateToPose>\n'}
+[7.716507] (patrolling_example) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.716838] (patrolling_example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/include/patrolling_example/Move.hpp:24\x1b[m\x1b[K,\n'}
+[7.717163] (patrolling_example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:20\x1b[m\x1b[K:\n'}
+[7.717488] (patrolling_example) StderrLine: {'line': b'/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KBT::NodeType BT::getType() [with T = patrolling_example::Move]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.717831] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:81:21:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[KBT::TreeNodeManifest BT::CreateManifest(const string&, BT::PortsList) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::PortsList = std::unordered_map<std::__cxx11::basic_string<char>, BT::PortInfo>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.718171] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:269:38:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&) [with T = patrolling_example::Move; std::string = std::__cxx11::basic_string<char>; BT::NodeBuilder = std::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.718582] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/patrolling_example/src/patrolling_example/Move.cpp:68:52:\x1b[m\x1b[K   required from here\n'}
+[7.718953] (patrolling_example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:88:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvalue\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::is_base_of<BT::ControlNode, patrolling_example::Move>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.719289] (patrolling_example) StderrLine: {'line': b'   88 |     if( std::is_base_of<ControlNode, T>::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K )           return NodeType::CONTROL;\n'}
+[7.719617] (patrolling_example) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.726151] (-) TimerEvent: {}
+[7.826678] (-) TimerEvent: {}
+[7.927054] (-) TimerEvent: {}
+[8.027509] (-) TimerEvent: {}
+[8.041950] (patrolling_example) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_bt_node.dir/build.make:76: CMakeFiles/move_bt_node.dir/src/patrolling_example/Move.cpp.o] Error 1\n'}
+[8.042383] (patrolling_example) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/move_bt_node.dir/all] Error 2\n'}
+[8.042635] (patrolling_example) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[8.127601] (-) TimerEvent: {}
+[8.227934] (-) TimerEvent: {}
+[8.328370] (-) TimerEvent: {}
+[8.428711] (-) TimerEvent: {}
+[8.529051] (-) TimerEvent: {}
+[8.629486] (-) TimerEvent: {}
+[8.729983] (-) TimerEvent: {}
+[8.747166] (patrolling_example) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable patrolling_example\x1b[0m\n'}
+[8.830131] (-) TimerEvent: {}
+[8.832615] (patrolling_example) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/location_bt_node.dir/build.make:76: CMakeFiles/location_bt_node.dir/src/patrolling_example/Location.cpp.o] Error 1\n'}
+[8.832945] (patrolling_example) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/location_bt_node.dir/all] Error 2\n'}
+[8.930246] (-) TimerEvent: {}
+[9.030595] (-) TimerEvent: {}
+[9.039504] (patrolling_example) StdoutLine: {'line': b'[ 66%] Built target patrolling_example\n'}
+[9.130732] (-) TimerEvent: {}
+[9.231035] (-) TimerEvent: {}
+[9.331290] (-) TimerEvent: {}
+[9.431596] (-) TimerEvent: {}
+[9.531920] (-) TimerEvent: {}
+[9.632234] (-) TimerEvent: {}
+[9.732539] (-) TimerEvent: {}
+[9.832812] (-) TimerEvent: {}
+[9.933101] (-) TimerEvent: {}
+[10.033426] (-) TimerEvent: {}
+[10.037295] (patrolling_example) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libget_waypoint_bt_node.so\x1b[0m\n'}
+[10.133568] (-) TimerEvent: {}
+[10.233892] (-) TimerEvent: {}
+[10.289462] (patrolling_example) StdoutLine: {'line': b'[ 75%] Built target get_waypoint_bt_node\n'}
+[10.334028] (-) TimerEvent: {}
+[10.434357] (-) TimerEvent: {}
+[10.534671] (-) TimerEvent: {}
+[10.634983] (-) TimerEvent: {}
+[10.735281] (-) TimerEvent: {}
+[10.835596] (-) TimerEvent: {}
+[10.935913] (-) TimerEvent: {}
+[11.036247] (-) TimerEvent: {}
+[11.136562] (-) TimerEvent: {}
+[11.236944] (-) TimerEvent: {}
+[11.337327] (-) TimerEvent: {}
+[11.437682] (-) TimerEvent: {}
+[11.538006] (-) TimerEvent: {}
+[11.638328] (-) TimerEvent: {}
+[11.738624] (-) TimerEvent: {}
+[11.838918] (-) TimerEvent: {}
+[11.939185] (-) TimerEvent: {}
+[12.039487] (-) TimerEvent: {}
+[12.139787] (-) TimerEvent: {}
+[12.240094] (-) TimerEvent: {}
+[12.340397] (-) TimerEvent: {}
+[12.440777] (-) TimerEvent: {}
+[12.541072] (-) TimerEvent: {}
+[12.641363] (-) TimerEvent: {}
+[12.741652] (-) TimerEvent: {}
+[12.841941] (-) TimerEvent: {}
+[12.942207] (-) TimerEvent: {}
+[13.042523] (-) TimerEvent: {}
+[13.142933] (-) TimerEvent: {}
+[13.243334] (-) TimerEvent: {}
+[13.343668] (-) TimerEvent: {}
+[13.444024] (-) TimerEvent: {}
+[13.544383] (-) TimerEvent: {}
+[13.644711] (-) TimerEvent: {}
+[13.745022] (-) TimerEvent: {}
+[13.845404] (-) TimerEvent: {}
+[13.945718] (-) TimerEvent: {}
+[14.046094] (-) TimerEvent: {}
+[14.146405] (-) TimerEvent: {}
+[14.246763] (-) TimerEvent: {}
+[14.347147] (-) TimerEvent: {}
+[14.447498] (-) TimerEvent: {}
+[14.547891] (-) TimerEvent: {}
+[14.648243] (-) TimerEvent: {}
+[14.748574] (-) TimerEvent: {}
+[14.848889] (-) TimerEvent: {}
+[14.949223] (-) TimerEvent: {}
+[15.049536] (-) TimerEvent: {}
+[15.149878] (-) TimerEvent: {}
+[15.250196] (-) TimerEvent: {}
+[15.350560] (-) TimerEvent: {}
+[15.450881] (-) TimerEvent: {}
+[15.551225] (-) TimerEvent: {}
+[15.651538] (-) TimerEvent: {}
+[15.751866] (-) TimerEvent: {}
+[15.852215] (-) TimerEvent: {}
+[15.952835] (-) TimerEvent: {}
+[16.064133] (-) TimerEvent: {}
+[16.164538] (-) TimerEvent: {}
+[16.264847] (-) TimerEvent: {}
+[16.365128] (-) TimerEvent: {}
+[16.465510] (-) TimerEvent: {}
+[16.565805] (-) TimerEvent: {}
+[16.666099] (-) TimerEvent: {}
+[16.766411] (-) TimerEvent: {}
+[16.866804] (-) TimerEvent: {}
+[16.967194] (-) TimerEvent: {}
+[17.067498] (-) TimerEvent: {}
+[17.073184] (patrolling_example) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_checker_bt_node.so\x1b[0m\n'}
+[17.167653] (-) TimerEvent: {}
+[17.268035] (-) TimerEvent: {}
+[17.368482] (-) TimerEvent: {}
+[17.468911] (-) TimerEvent: {}
+[17.569265] (-) TimerEvent: {}
+[17.669679] (-) TimerEvent: {}
+[17.770009] (-) TimerEvent: {}
+[17.784965] (patrolling_example) StdoutLine: {'line': b'[ 83%] Built target battery_checker_bt_node\n'}
+[17.786582] (patrolling_example) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.789761] (patrolling_example) CommandEnded: {'returncode': 2}
+[17.850358] (patrolling_example) JobEnded: {'identifier': 'patrolling_example', 'rc': 2}
+[17.860949] (-) EventReactorShutdown: {}
