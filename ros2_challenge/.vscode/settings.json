@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/omartinez/ct_ws/install/webots_sim/lib/python3.10/site-packages",
+        "/home/omartinez/ct_ws/build/turtlebot3_teleop",
+        "/home/omartinez/ct_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/omartinez/ct_ws/build/turtlebot3_example",
+        "/home/omartinez/ct_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/omartinez/ct_ws/install/custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/omartinez/ct_ws/install/webots_sim/lib/python3.10/site-packages",
+        "/home/omartinez/ct_ws/build/turtlebot3_teleop",
+        "/home/omartinez/ct_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/omartinez/ct_ws/build/turtlebot3_example",
+        "/home/omartinez/ct_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/omartinez/ct_ws/install/custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

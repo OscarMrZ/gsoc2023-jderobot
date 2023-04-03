@@ -1,0 +1,27 @@
+[0.017s] Invoking command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge -- -j8 -l8
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.081s] [ 50%] Built target talker
+[0.085s] [100%] Built target listener
+[0.097s] Invoked command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge -- -j8 -l8
+[0.142s] Invoking command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge
+[0.151s] -- Install configuration: ""
+[0.152s] -- Execute custom install script
+[0.152s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/lib/pubsub_challenge/talker
+[0.153s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/lib/pubsub_challenge/listener
+[0.153s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/package_run_dependencies/pubsub_challenge
+[0.154s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/parent_prefix_path/pubsub_challenge
+[0.154s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.sh
+[0.154s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.dsv
+[0.154s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/path.sh
+[0.155s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/path.dsv
+[0.155s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.bash
+[0.155s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.sh
+[0.156s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.zsh
+[0.156s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.dsv
+[0.156s] -- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/package.dsv
+[0.167s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/packages/pubsub_challenge
+[0.167s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig.cmake
+[0.167s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig-version.cmake
+[0.168s] -- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/package.xml
+[0.171s] Invoked command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge

@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (pubsub_challenge) JobQueued: {'identifier': 'pubsub_challenge', 'dependencies': OrderedDict()}
+[0.000278] (pubsub_challenge) JobStarted: {'identifier': 'pubsub_challenge'}
+[0.015871] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'cmake'}
+[0.016579] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/cpp_pubsub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/omartinez/ct_ws/install/smartloc_sim/lib:/home/omartinez/ct_ws/install/rfid_sensor_plugin/lib:/home/omartinez/ct_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/omartinez/ct_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dfcc2b3e_22f5_421f_a62d_755c66bdba7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omartinez/ct_ws/install/webots_sim:/home/omartinez/ct_ws/install/turtlebot3:/home/omartinez/ct_ws/install/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_bringup:/home/omartinez/ct_ws/install/turtlebot3_node:/home/omartinez/ct_ws/install/turtlebot3_navigation2:/home/omartinez/ct_ws/install/turtlebot3_example:/home/omartinez/ct_ws/install/turtlebot3_description:/home/omartinez/ct_ws/install/turtlebot3_cartographer:/home/omartinez/ct_ws/install/tag_sim:/home/omartinez/ct_ws/install/smartloc_sim:/home/omartinez/ct_ws/install/rfid_srv:/home/omartinez/ct_ws/install/rfid_sensor_plugin:/home/omartinez/ct_ws/install/position_calculator:/home/omartinez/ct_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/omartinez/ct_ws/install/webots_sim/lib/python3.10/site-packages:/home/omartinez/ct_ws/build/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/omartinez/ct_ws/build/turtlebot3_example:/home/omartinez/ct_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/omartinez/ct_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omartinez/ct_ws/install/turtlebot3:/home/omartinez/ct_ws/install/turtlebot3_bringup:/home/omartinez/ct_ws/install/turtlebot3_node:/home/omartinez/ct_ws/install/turtlebot3_navigation2:/home/omartinez/ct_ws/install/turtlebot3_description:/home/omartinez/ct_ws/install/turtlebot3_cartographer:/home/omartinez/ct_ws/install/tag_sim:/home/omartinez/ct_ws/install/smartloc_sim:/home/omartinez/ct_ws/install/rfid_srv:/home/omartinez/ct_ws/install/rfid_sensor_plugin:/home/omartinez/ct_ws/install/position_calculator:/home/omartinez/ct_ws/install/custom_interfaces:/home/omartinez/ct_ws/install/webots_sim:/home/omartinez/ct_ws/install/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.098525] (-) TimerEvent: {}
+[0.155133] (pubsub_challenge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.198827] (-) TimerEvent: {}
+[0.266033] (pubsub_challenge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.280076] (pubsub_challenge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298948] (-) TimerEvent: {}
+[0.370025] (pubsub_challenge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.382360] (pubsub_challenge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.383003] (pubsub_challenge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.383811] (pubsub_challenge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.388361] (pubsub_challenge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399034] (-) TimerEvent: {}
+[0.489313] (pubsub_challenge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.498180] (pubsub_challenge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.498611] (pubsub_challenge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.499091] (-) TimerEvent: {}
+[0.499407] (pubsub_challenge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.508776] (pubsub_challenge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599201] (-) TimerEvent: {}
+[0.699503] (-) TimerEvent: {}
+[0.726319] (pubsub_challenge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.799605] (-) TimerEvent: {}
+[0.804473] (pubsub_challenge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.888213] (pubsub_challenge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.899742] (-) TimerEvent: {}
+[0.991348] (pubsub_challenge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.999876] (-) TimerEvent: {}
+[1.004229] (pubsub_challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.022896] (pubsub_challenge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.050014] (pubsub_challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.085451] (pubsub_challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100005] (-) TimerEvent: {}
+[1.200376] (-) TimerEvent: {}
+[1.209649] (pubsub_challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.219242] (pubsub_challenge) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.289763] (pubsub_challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.300469] (-) TimerEvent: {}
+[1.312548] (pubsub_challenge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.395040] (pubsub_challenge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.395447] (pubsub_challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.400542] (-) TimerEvent: {}
+[1.480331] (pubsub_challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.481589] (pubsub_challenge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.500653] (-) TimerEvent: {}
+[1.600956] (-) TimerEvent: {}
+[1.701370] (-) TimerEvent: {}
+[1.799714] (pubsub_challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.801448] (-) TimerEvent: {}
+[1.817483] (pubsub_challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.820746] (pubsub_challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge\n'}
+[1.831085] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[1.831956] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'build'}
+[1.832864] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge', '--', '-j8', '-l8'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/omartinez/ct_ws/install/smartloc_sim/lib:/home/omartinez/ct_ws/install/rfid_sensor_plugin/lib:/home/omartinez/ct_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/omartinez/ct_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dfcc2b3e_22f5_421f_a62d_755c66bdba7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omartinez/ct_ws/install/webots_sim:/home/omartinez/ct_ws/install/turtlebot3:/home/omartinez/ct_ws/install/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_bringup:/home/omartinez/ct_ws/install/turtlebot3_node:/home/omartinez/ct_ws/install/turtlebot3_navigation2:/home/omartinez/ct_ws/install/turtlebot3_example:/home/omartinez/ct_ws/install/turtlebot3_description:/home/omartinez/ct_ws/install/turtlebot3_cartographer:/home/omartinez/ct_ws/install/tag_sim:/home/omartinez/ct_ws/install/smartloc_sim:/home/omartinez/ct_ws/install/rfid_srv:/home/omartinez/ct_ws/install/rfid_sensor_plugin:/home/omartinez/ct_ws/install/position_calculator:/home/omartinez/ct_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/omartinez/ct_ws/install/webots_sim/lib/python3.10/site-packages:/home/omartinez/ct_ws/build/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/omartinez/ct_ws/build/turtlebot3_example:/home/omartinez/ct_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/omartinez/ct_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omartinez/ct_ws/install/turtlebot3:/home/omartinez/ct_ws/install/turtlebot3_bringup:/home/omartinez/ct_ws/install/turtlebot3_node:/home/omartinez/ct_ws/install/turtlebot3_navigation2:/home/omartinez/ct_ws/install/turtlebot3_description:/home/omartinez/ct_ws/install/turtlebot3_cartographer:/home/omartinez/ct_ws/install/tag_sim:/home/omartinez/ct_ws/install/smartloc_sim:/home/omartinez/ct_ws/install/rfid_srv:/home/omartinez/ct_ws/install/rfid_sensor_plugin:/home/omartinez/ct_ws/install/position_calculator:/home/omartinez/ct_ws/install/custom_interfaces:/home/omartinez/ct_ws/install/webots_sim:/home/omartinez/ct_ws/install/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[1.892939] (pubsub_challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.893215] (pubsub_challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.901567] (-) TimerEvent: {}
+[2.001967] (-) TimerEvent: {}
+[2.102338] (-) TimerEvent: {}
+[2.202780] (-) TimerEvent: {}
+[2.303210] (-) TimerEvent: {}
+[2.403599] (-) TimerEvent: {}
+[2.503922] (-) TimerEvent: {}
+[2.604317] (-) TimerEvent: {}
+[2.704594] (-) TimerEvent: {}
+[2.805063] (-) TimerEvent: {}
+[2.905474] (-) TimerEvent: {}
+[3.005856] (-) TimerEvent: {}
+[3.106282] (-) TimerEvent: {}
+[3.206702] (-) TimerEvent: {}
+[3.307098] (-) TimerEvent: {}
+[3.407478] (-) TimerEvent: {}
+[3.507859] (-) TimerEvent: {}
+[3.608243] (-) TimerEvent: {}
+[3.708610] (-) TimerEvent: {}
+[3.808999] (-) TimerEvent: {}
+[3.909441] (-) TimerEvent: {}
+[4.009773] (-) TimerEvent: {}
+[4.110174] (-) TimerEvent: {}
+[4.210584] (-) TimerEvent: {}
+[4.310979] (-) TimerEvent: {}
+[4.411331] (-) TimerEvent: {}
+[4.511691] (-) TimerEvent: {}
+[4.612071] (-) TimerEvent: {}
+[4.712496] (-) TimerEvent: {}
+[4.812884] (-) TimerEvent: {}
+[4.913182] (-) TimerEvent: {}
+[5.013577] (-) TimerEvent: {}
+[5.113934] (-) TimerEvent: {}
+[5.214303] (-) TimerEvent: {}
+[5.314638] (-) TimerEvent: {}
+[5.414984] (-) TimerEvent: {}
+[5.515371] (-) TimerEvent: {}
+[5.615701] (-) TimerEvent: {}
+[5.716021] (-) TimerEvent: {}
+[5.816387] (-) TimerEvent: {}
+[5.916755] (-) TimerEvent: {}
+[6.017127] (-) TimerEvent: {}
+[6.117500] (-) TimerEvent: {}
+[6.217845] (-) TimerEvent: {}
+[6.318162] (-) TimerEvent: {}
+[6.418533] (-) TimerEvent: {}
+[6.518911] (-) TimerEvent: {}
+[6.619260] (-) TimerEvent: {}
+[6.703545] (pubsub_challenge) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[6.719375] (-) TimerEvent: {}
+[6.819790] (-) TimerEvent: {}
+[6.920238] (-) TimerEvent: {}
+[6.991719] (pubsub_challenge) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[7.020371] (-) TimerEvent: {}
+[7.120720] (-) TimerEvent: {}
+[7.221087] (-) TimerEvent: {}
+[7.321449] (-) TimerEvent: {}
+[7.421847] (-) TimerEvent: {}
+[7.522210] (-) TimerEvent: {}
+[7.622546] (-) TimerEvent: {}
+[7.722904] (-) TimerEvent: {}
+[7.823277] (-) TimerEvent: {}
+[7.923625] (-) TimerEvent: {}
+[8.023973] (-) TimerEvent: {}
+[8.124348] (-) TimerEvent: {}
+[8.224693] (-) TimerEvent: {}
+[8.325054] (-) TimerEvent: {}
+[8.425419] (-) TimerEvent: {}
+[8.525762] (-) TimerEvent: {}
+[8.626173] (-) TimerEvent: {}
+[8.726560] (-) TimerEvent: {}
+[8.826917] (-) TimerEvent: {}
+[8.927277] (-) TimerEvent: {}
+[9.027635] (-) TimerEvent: {}
+[9.128000] (-) TimerEvent: {}
+[9.228386] (-) TimerEvent: {}
+[9.328752] (-) TimerEvent: {}
+[9.429055] (-) TimerEvent: {}
+[9.529464] (-) TimerEvent: {}
+[9.629828] (-) TimerEvent: {}
+[9.730195] (-) TimerEvent: {}
+[9.830539] (-) TimerEvent: {}
+[9.930905] (-) TimerEvent: {}
+[10.031224] (-) TimerEvent: {}
+[10.131582] (-) TimerEvent: {}
+[10.231904] (-) TimerEvent: {}
+[10.332276] (-) TimerEvent: {}
+[10.432682] (-) TimerEvent: {}
+[10.533047] (-) TimerEvent: {}
+[10.633379] (-) TimerEvent: {}
+[10.733683] (-) TimerEvent: {}
+[10.834065] (-) TimerEvent: {}
+[10.921717] (pubsub_challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[10.934193] (-) TimerEvent: {}
+[11.034573] (-) TimerEvent: {}
+[11.134982] (-) TimerEvent: {}
+[11.235329] (-) TimerEvent: {}
+[11.335692] (-) TimerEvent: {}
+[11.378178] (pubsub_challenge) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[11.391307] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[11.430181] (pubsub_challenge) JobProgress: {'identifier': 'pubsub_challenge', 'progress': 'install'}
+[11.435865] (-) TimerEvent: {}
+[11.443241] (pubsub_challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge'], 'cwd': '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omartinez'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/omartinez/ct_ws/install/smartloc_sim/lib:/home/omartinez/ct_ws/install/rfid_sensor_plugin/lib:/home/omartinez/ct_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omartinez'), ('OLDPWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/omartinez/ct_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omartinez'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'omartinez'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omartinez/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Omega:@/tmp/.ICE-unix/1977,unix/Omega:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dfcc2b3e_22f5_421f_a62d_755c66bdba7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omartinez/ct_ws/install/webots_sim:/home/omartinez/ct_ws/install/turtlebot3:/home/omartinez/ct_ws/install/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_bringup:/home/omartinez/ct_ws/install/turtlebot3_node:/home/omartinez/ct_ws/install/turtlebot3_navigation2:/home/omartinez/ct_ws/install/turtlebot3_example:/home/omartinez/ct_ws/install/turtlebot3_description:/home/omartinez/ct_ws/install/turtlebot3_cartographer:/home/omartinez/ct_ws/install/tag_sim:/home/omartinez/ct_ws/install/smartloc_sim:/home/omartinez/ct_ws/install/rfid_srv:/home/omartinez/ct_ws/install/rfid_sensor_plugin:/home/omartinez/ct_ws/install/position_calculator:/home/omartinez/ct_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/omartinez/ct_ws/install/webots_sim/lib/python3.10/site-packages:/home/omartinez/ct_ws/build/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/omartinez/ct_ws/build/turtlebot3_example:/home/omartinez/ct_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/omartinez/ct_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omartinez/ct_ws/install/turtlebot3:/home/omartinez/ct_ws/install/turtlebot3_bringup:/home/omartinez/ct_ws/install/turtlebot3_node:/home/omartinez/ct_ws/install/turtlebot3_navigation2:/home/omartinez/ct_ws/install/turtlebot3_description:/home/omartinez/ct_ws/install/turtlebot3_cartographer:/home/omartinez/ct_ws/install/tag_sim:/home/omartinez/ct_ws/install/smartloc_sim:/home/omartinez/ct_ws/install/rfid_srv:/home/omartinez/ct_ws/install/rfid_sensor_plugin:/home/omartinez/ct_ws/install/position_calculator:/home/omartinez/ct_ws/install/custom_interfaces:/home/omartinez/ct_ws/install/webots_sim:/home/omartinez/ct_ws/install/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[11.451849] (pubsub_challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.452623] (pubsub_challenge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.453604] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/lib/pubsub_challenge/talker\n'}
+[11.465625] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/lib/pubsub_challenge/listener\n'}
+[11.476816] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/package_run_dependencies/pubsub_challenge\n'}
+[11.487045] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/parent_prefix_path/pubsub_challenge\n'}
+[11.496840] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.sh\n'}
+[11.506327] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/ament_prefix_path.dsv\n'}
+[11.515840] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/path.sh\n'}
+[11.525090] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/environment/path.dsv\n'}
+[11.534458] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.bash\n'}
+[11.536012] (-) TimerEvent: {}
+[11.544421] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.sh\n'}
+[11.554642] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.zsh\n'}
+[11.564541] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/local_setup.dsv\n'}
+[11.574468] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/package.dsv\n'}
+[11.584667] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/ament_index/resource_index/packages/pubsub_challenge\n'}
+[11.594608] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig.cmake\n'}
+[11.603856] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/cmake/pubsub_challengeConfig-version.cmake\n'}
+[11.612955] (pubsub_challenge) StdoutLine: {'line': b'-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge/share/pubsub_challenge/package.xml\n'}
+[11.624158] (pubsub_challenge) CommandEnded: {'returncode': 0}
+[11.636195] (-) TimerEvent: {}
+[11.695528] (pubsub_challenge) JobEnded: {'identifier': 'pubsub_challenge', 'rc': 0}
+[11.696589] (-) EventReactorShutdown: {}

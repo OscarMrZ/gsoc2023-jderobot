@@ -1,0 +1,7 @@
+[0.019s] Invoking command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ct_ws/install/webots_sim:/home/omartinez/ct_ws/install/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge
+[0.033s] [31mCMake Error at CMakeLists.txt:4:
+[0.033s]   Parse error.  Expected "(", got identifier with text "to".
+[0.033s] 
+[0.033s] [0m
+[0.034s] -- Configuring incomplete, errors occurred!
+[0.036s] Invoked command in '/home/omartinez/gsoc2023-jderobot/ros2_challenge/build/pubsub_challenge' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omartinez/ct_ws/install/webots_sim:/home/omartinez/ct_ws/install/turtlebot3_teleop:/home/omartinez/ct_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/omartinez/gsoc2023-jderobot/ros2_challenge/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omartinez/gsoc2023-jderobot/ros2_challenge/install/pubsub_challenge

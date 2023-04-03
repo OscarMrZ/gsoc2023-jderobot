@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/omartinez/ct_ws/install/smartloc_sim/include/**",
+        "/home/omartinez/ct_ws/install/custom_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/omartinez/gsoc2023-jderobot/ros2_challenge/src/cpp_pubsub/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
