@@ -1,0 +1,43 @@
+[ 16%] Built target recharge_bt_node
+[ 33%] Built target location_bt_node
+[ 50%] Built target battery_checker_bt_node
+[ 66%] Built target patrolling_example
+[ 83%] Built target get_waypoint_bt_node
+[100%] Built target move_bt_node
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/librecharge_bt_node.so
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/liblocation_bt_node.so
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libmove_bt_node.so
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libget_waypoint_bt_node.so
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/libbattery_checker_bt_node.so
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/lib/patrolling_example/patrolling_example
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/BatteryChecker.hpp
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/GetWaypoint.hpp
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Location.hpp
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Move.hpp
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/Recharge.hpp
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/ctrl_support/BTActionNode.hpp
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/include//patrolling_example/ctrl_support/BTLifecycleCtrlNode.hpp
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/launch/example_bringup.py
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/param/waffle.yaml
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/map/map.pgm
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/map/map.yaml
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/behavior_tree_xml/example.xml
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/package_run_dependencies/patrolling_example
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/parent_prefix_path/patrolling_example
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/path.sh
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/environment/path.dsv
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.bash
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.sh
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.zsh
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/local_setup.dsv
+-- Symlinking: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/package.dsv
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/ament_index/resource_index/packages/patrolling_example
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/patrolling_exampleConfig.cmake
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/cmake/patrolling_exampleConfig-version.cmake
+-- Up-to-date symlink: /home/omartinez/gsoc2023-jderobot/ros2_challenge/install/patrolling_example/share/patrolling_example/package.xml
